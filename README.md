@@ -24,3 +24,5 @@ PS C:\100nock> git commit -m "最初のコミット"
 
 #課題02
 
+PS C:\100nock> ssh -T git@github.com
+git@github.com: Permission denied (publickey).
