@@ -26,3 +26,9 @@ PS C:\100nock> git commit -m "最初のコミット"
 
 PS C:\100nock> ssh -T git@github.com
 git@github.com: Permission denied (publickey).
+
+#課題03
+
+PS C:\100nock> git remote -v
+origin  https://github.com/miyu1027/100nock.git (fetch)
+origin  https://github.com/miyu1027/100nock.git (push)
