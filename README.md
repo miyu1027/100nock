@@ -75,6 +75,26 @@ Date:   Tue Oct 14 16:16:06 2025 +0900
 (END)
 
 #課題05
+.gitignoreファイル内容（参照：chatgpt）
+# Python関連
+__pycache__/
+*.pyc
+
+# VS Code設定
+.vscode/
+
+# OSの不要ファイル
+.DS_Store
+Thumbs.db
+
+# 環境変数ファイル
+.env
+
+# ビルド結果
+build/
+dist/
+
+
 
 #課題06
 PS C:\100nock\100nock> git branch
@@ -86,4 +106,5 @@ developからコミット！
 
 #課題07
 <img width="1919" height="935" alt="image" src="https://github.com/user-attachments/assets/7820f261-5332-4d3e-9d4d-3477f2b592eb" />
+
 
