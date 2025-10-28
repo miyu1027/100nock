@@ -26,6 +26,7 @@ PS C:\100nock> git commit -m "最初のコミット"
 
 PS C:\100nock> ssh -T git@github.com
 git@github.com: Permission denied (publickey).
+上手くいっていないです。
 
 # 課題03
 
@@ -106,6 +107,7 @@ developからコミット！
 
 # 課題07
 <img width="1919" height="935" alt="image" src="https://github.com/user-attachments/assets/7820f261-5332-4d3e-9d4d-3477f2b592eb" />
+
 
 
 
