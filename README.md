@@ -1,13 +1,13 @@
 ﻿# 100nock
 # 100nock
 
-#課題00
+# 課題00
 
 PS C:\100nock> git --version
 
 git version 2.51.0.windows.2
 
-#課題01
+# 課題01
 
 PS C:\100nock> echo "# 100nock" >> README.md 
 
@@ -22,18 +22,18 @@ PS C:\100nock> git commit -m "最初のコミット"
 [main cf5b851] 最初のコミット
 
 
-#課題02
+# 課題02
 
 PS C:\100nock> ssh -T git@github.com
 git@github.com: Permission denied (publickey).
 
-#課題03
+# 課題03
 
 PS C:\100nock> git remote -v
 origin  https://github.com/miyu1027/100nock.git (fetch)
 origin  https://github.com/miyu1027/100nock.git (push)
 
-#課題04
+# 課題04
 
 PS C:\100nock> git log
 
@@ -74,29 +74,29 @@ Date:   Tue Oct 14 16:16:06 2025 +0900
     最初のコミット
 (END)
 
-#課題05
+# 課題05
 .gitignoreファイル内容（参照：chatgpt）
-# Python関連
+#Python関連
 __pycache__/
 *.pyc
 
-# VS Code設定
+#VS Code設定
 .vscode/
 
-# OSの不要ファイル
+#OSの不要ファイル
 .DS_Store
 Thumbs.db
 
-# 環境変数ファイル
+#環境変数ファイル
 .env
 
-# ビルド結果
+#ビルド結果
 build/
 dist/
 
 
 
-#課題06
+# 課題06
 PS C:\100nock\100nock> git branch
 * main
 PS C:\100nock\100nock> git branch develop main        
@@ -104,7 +104,8 @@ PS C:\100nock\100nock> git checkout -b develop
 fatal: a branch named 'develop' already exists
 developからコミット！
 
-#課題07
+# 課題07
 <img width="1919" height="935" alt="image" src="https://github.com/user-attachments/assets/7820f261-5332-4d3e-9d4d-3477f2b592eb" />
+
 
 
