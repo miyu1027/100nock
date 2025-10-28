@@ -106,7 +106,12 @@ fatal: a branch named 'develop' already exists
 developからコミット！
 
 # 課題07
+githubブラウザ上で操作しました。
+pull request (main ← develop)作成
+その後、marge(変更を統合)
+
 <img width="1919" height="935" alt="image" src="https://github.com/user-attachments/assets/7820f261-5332-4d3e-9d4d-3477f2b592eb" />
+
 
 
 
