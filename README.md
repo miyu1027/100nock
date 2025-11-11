@@ -10,7 +10,7 @@ argsは空オブジェクト。
 "args": {"age": "22","name": "koike"}
 
 # 課題19
-レスポンスヘッダーは、レスポンス(受信側)についての付加情報のことである。場所、サーバー自身の名前やバージョンの情報、ステータスコード、content-typeなどが挙げられる。レスポンスボディをブラウザがどのように処理すべきか構造化されて書かれている。
+レスポンスヘッダーは、レスポンス(受信側)についての付加情報のことである。サーバー自身の名前やバージョンの情報、ステータスコード、content-typeなどが挙げられる。レスポンスボディをブラウザがどのように処理すべきか構造化されて書かれている。
 
 例：九州大学芸術工学部HPのレスポンスヘッダー
 <img width="1326" height="358" alt="image" src="https://github.com/user-attachments/assets/6075e52d-2c30-4c28-900f-e4c7828aa101" />
@@ -24,6 +24,7 @@ argsは空オブジェクト。
 <img width="1372" height="581" alt="image" src="https://github.com/user-attachments/assets/f317ca0a-e561-4585-aedd-810d471daaf9" />
 
 <img width="902" height="469" alt="image" src="https://github.com/user-attachments/assets/6084bd99-aa0e-48fd-891f-1ca24ed1e8f0" />
+
 
 
 
