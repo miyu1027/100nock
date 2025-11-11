@@ -1,118 +1,34 @@
 ﻿# 100nock
 # 100nock
 
-# 課題00
 
-PS C:\100nock> git --version
+# 課題10
 
-git version 2.51.0.windows.2
+HTTPはHyper Text Transfer Protocolの略
+仕組み：クライアントがサーバにリクエストを送信し、サーバが処理してレスポンスを返すというやり取りを行う。
 
-# 課題01
+特徴：Webサーバーとwebクライアントがデータを送受信するために利用されるプロトコル。
 
-PS C:\100nock> echo "# 100nock" >> README.md 
+よく使われるバージョンについて：HTTP/1.1は1997年に開発された。最初の使用可能なバージョンである。HTTP/2は2015年に開発された。読み込みプロセス中にコンテンツの優先順位を決める方法を用いて、高速化に成功した。HTTP/3は、2018年に開発された。今までのTCPではなく、QUICというプロトコルで実行される。
 
-PS C:\100nock> git init 
+# 課題11
+問題にあったexample.comのリクエスト・レスポンスヘッダー
+Google Chrome→webサイト上で右クリック→検証で閲覧可能
 
-Reinitialized existing Git repository in C:/100nock/.git/
+user-agent
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 
-PS C:\100nock> git add README.md 
-
-PS C:\100nock> git commit -m "最初のコミット" 
-
-[main cf5b851] 最初のコミット
-
-
-# 課題02
-
-PS C:\100nock> ssh -T git@github.com
-git@github.com: Permission denied (publickey).
-上手くいっていないです。
-
-# 課題03
-
-PS C:\100nock> git remote -v
-origin  https://github.com/miyu1027/100nock.git (fetch)
-origin  https://github.com/miyu1027/100nock.git (push)
-
-# 課題04
-
-PS C:\100nock> git log
-
-commit 689d164a5c20f2a9c27339aa6e6936d59aa0d1e2 (HEAD -> main, origin/main, origin/HEAD)
-Author: miyu1027 <miyu151027@gmail.com>
-Date:   Tue Oct 28 02:22:30 2025 +0900
-
-    README.md
-
-commit d2db609f0dcf8fe548b187fbbe95e4b8fbbccdcf
-Author: miyu1027 <miyu151027@gmail.com>
-Date:   Mon Oct 27 18:40:57 2025 +0900
-
-    README.md
-
-commit a7ff47d35fbe6eeeebc910c60cb0ead499111dab
-Author: miyu1027 <miyu151027@gmail.com>
-Date:   Mon Oct 27 18:22:33 2025 +0900
-
-    README.md
-
-commit cdfe70ad889a7b7553b24524f21c3b34db43b328
-Author: miyu1027 <miyu151027@gmail.com>
-Date:   Mon Oct 27 18:11:53 2025 +0900
-
-    README.md
-
-commit cf5b8519a258daa65a17cc47a5146960ac1f8805
-Author: miyu1027 <miyu151027@gmail.com>
-Date:   Thu Oct 23 14:52:24 2025 +0900
-
-    最初のコミット
-
-commit 5bbbb63e848b90f0bc9a86622c77f741016291c1
-Author: miyu1027 <miyu151027@gmail.com>
-Date:   Tue Oct 14 16:16:06 2025 +0900
-
-    最初のコミット
-(END)
-
-# 課題05
-.gitignoreファイル内容（参照：chatgpt）
-#Python関連
-__pycache__/
-*.pyc
-
-#VS Code設定
-.vscode/
-
-#OSの不要ファイル
-.DS_Store
-Thumbs.db
-
-#環境変数ファイル
-.env
-
-#ビルド結果
-build/
-dist/
+x-content-type-options
+nosniff
+x-content-type-options
+nosniff
 
 
+# 課題16
+パラメータなし
+<img width="627" height="974" alt="image" src="https://github.com/user-attachments/assets/02171c53-38c5-42c8-a016-add09cd10b0e" />
+argsは空オブジェクト。
 
-# 課題06
-PS C:\100nock\100nock> git branch
-* main
-PS C:\100nock\100nock> git branch develop main        
-PS C:\100nock\100nock> git checkout -b develop           
-fatal: a branch named 'develop' already exists
-developからコミット！
-
-# 課題07
-githubブラウザ上で操作しました。
-pull request (main ← develop)作成
-その後、marge(変更を統合)
-
-<img width="1919" height="935" alt="image" src="https://github.com/user-attachments/assets/7820f261-5332-4d3e-9d4d-3477f2b592eb" />
-
-
-
-
-
+パラメータあり
+<img width="1347" height="766" alt="image" src="https://github.com/user-attachments/assets/cb4dfb53-c30f-4f60-bbb7-31cf90134e45" />
+"args": {"age": "22","name": "koike"}
