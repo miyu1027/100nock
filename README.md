@@ -1,5 +1,7 @@
 # 100nock
 
+担当箇所
+
 # 課題20
 <!DOCTYPE html>
 <html>
