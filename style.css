@@ -1,0 +1,71 @@
+h1{
+color: rgb(23, 0, 125);
+font-size: 50px;
+}
+
+h3{
+color: rgb(23, 0, 125);
+font-size: 36px;
+}
+
+.container {
+
+  font-size: 24px;
+  margin: 100px;
+  width: 1040px;
+  height: 430px;
+  outline: dashed 1px black;
+}
+
+body {
+  font-family: "游ゴシック";
+  /* 水平方向の中央揃え */
+  text-align: center;
+}
+
+
+
+
+body {
+    padding: 20px;
+}
+form > div {
+    margin-bottom: 15px;
+}
+label {
+    display: block; /* ラベルをブロック要素にして、入力欄を下に配置 */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"] {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid rgb(237, 237, 241);
+    border-radius: 4px;
+}
+button {
+    padding: 10px 20px;
+    background-color: rgb(21, 111, 222);
+    color: rgb(255,255,255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+}
+
+h3, h4 {
+  text-align: center;
+}
+
