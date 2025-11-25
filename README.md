@@ -1,6 +1,6 @@
 # 30-39
 
-# 課題30
+# 課題30(担当箇所)
 
 <img width="694" height="177" alt="image" src="https://github.com/user-attachments/assets/404ac5a0-20f1-4ce2-96b2-8f8d3c2fee77" />
 <img width="1014" height="449" alt="image" src="https://github.com/user-attachments/assets/24d4bb49-821b-4164-96b4-9f161bc4bb42" />
@@ -35,7 +35,7 @@ main.js
 <img width="1617" height="347" alt="image" src="https://github.com/user-attachments/assets/ca473b1d-802a-4763-9c18-0f221ab3899a" />
 
 
-# 課題36
+# 課題36(担当箇所)
 HTML
 <img width="937" height="805" alt="image" src="https://github.com/user-attachments/assets/8c5a7080-cd98-4043-9d53-a071fee9c8eb" />
 main.js
@@ -53,3 +53,4 @@ main.js
 スクリーンショット　書き換え後
 <img width="674" height="255" alt="image" src="https://github.com/user-attachments/assets/ec39db21-acd5-4e54-a7cd-122a91013d9d" />
 
+# 課題38
