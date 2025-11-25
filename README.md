@@ -54,3 +54,7 @@ main.js
 <img width="674" height="255" alt="image" src="https://github.com/user-attachments/assets/ec39db21-acd5-4e54-a7cd-122a91013d9d" />
 
 # 課題38
+<img width="839" height="433" alt="image" src="https://github.com/user-attachments/assets/3fb1510b-e4c7-4f9b-88a5-1694c0180b3e" />
+<img width="776" height="276" alt="image" src="https://github.com/user-attachments/assets/5eb0b5d0-72cb-4b71-b9de-a7e28b01f931" />
+
+# 課題39
