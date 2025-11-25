@@ -58,3 +58,11 @@ main.js
 <img width="776" height="276" alt="image" src="https://github.com/user-attachments/assets/5eb0b5d0-72cb-4b71-b9de-a7e28b01f931" />
 
 # 課題39
+HTML
+<img width="939" height="588" alt="image" src="https://github.com/user-attachments/assets/eff67ab6-273b-46ff-bdcd-4337936f1ca0" />
+main.js
+<img width="906" height="661" alt="image" src="https://github.com/user-attachments/assets/bf6c964b-44b7-4f92-abd0-ba8c58a5527e" />
+<img width="944" height="344" alt="image" src="https://github.com/user-attachments/assets/d8f56aa1-5284-4416-abb3-fa1a164c62e1" />
+スクリーンショット
+<img width="773" height="298" alt="image" src="https://github.com/user-attachments/assets/d66337c8-1b2c-4ef7-b8d5-b9f158068394" />
+<img width="806" height="387" alt="image" src="https://github.com/user-attachments/assets/f06031e4-39b8-4f21-9f85-4125ea265a4d" />
