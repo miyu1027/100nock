@@ -1,19 +1,4 @@
-# 40-49
 担当箇所は42,45
-
-
-
-# 40. APIとは何か
-
-APIとは、ソフトウェアやプログラム、webサービスをつなぐインターフェースのことである。リクエスト(要求)とレスポンス(応答)の2プロセスがあり、利用者がリクエストを送り、サービス提供側がレスポンスを行う。REST APIはRESTという設計原則に則ってwebシステムを外部から利用するための呼び出し規約(API)の一種。RESTはRepresentational State Transfer の略で、Web APIの構築方法に関するルールとガイドラインの集まり。
-
-参考：https://www.redhat.com/ja/topics/api/what-is-a-rest-api
-
-# 41. シンプルなHTTPサーバ
-動作確認コード：curl http://localhost:3000/　(ターミナルで実行)
-※　-iをつけるとレスポンスヘッダまで見れます。
-<img width="624" height="315" alt="image" src="https://github.com/user-attachments/assets/e632504f-0ecb-46a5-ac0b-bfecbde9e012" />
-
 
 # 42. GETリクエストに対応したAPIの作成
 動作確認
