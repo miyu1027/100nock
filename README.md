@@ -119,5 +119,11 @@ bash上でnpm install express(expressインストール)
 <img width="1185" height="163" alt="image" src="https://github.com/user-attachments/assets/9e26320b-0b2d-420b-99a6-ad8913784c49" />
 
 
+
 # 58. Webフォームからの入力データをデータベースに登録
 簡単なWebフォームを用意し，ユーザが入力したデータをPOSTで受け取り，サーバでデータベースに登録する仕組みを実装すること．
+
+
+# 59. 登録データの編集・削除機能の実装
+登録されたデータの編集・削除ができるAPIや画面を実装すること．
+最低限，APIで更新・削除処理が動作することを確認する．
