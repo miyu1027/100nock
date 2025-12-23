@@ -106,9 +106,12 @@ Node.jsのSQLiteライブラリ（例：sqlite3）を用いて，データベー
 # 57. Webサーバとデータベースの連携
 Expressサーバ上で，データベースから取得したレコードの一覧をJSONで返すAPIを実装すること．
 
+bash上でnpm install express(expressインストール)
+
+↓index.js
+
 <img width="745" height="729" alt="image" src="https://github.com/user-attachments/assets/bac4f54d-205b-450b-a777-d1496ede9242" />
 
-bash上でnpm install express(expressインストール)
 
 ↓bashでnode index.jsした結果
 
