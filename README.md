@@ -110,7 +110,7 @@ bash上でnpm install express(expressインストール)
 
 ↓index.js
 
-<img width="745" height="729" alt="image" src="https://github.com/user-attachments/assets/bac4f54d-205b-450b-a777-d1496ede9242" />
+<img width="930" height="857" alt="image" src="https://github.com/user-attachments/assets/bebe0aa5-e81a-49ff-927d-a9236f7239ca" />
 
 
 ↓bashでnode index.jsした結果
