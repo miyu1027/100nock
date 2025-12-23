@@ -98,9 +98,6 @@ Node.jsのSQLiteライブラリ（例：sqlite3）を用いて，データベー
 
 <img width="684" height="591" alt="image" src="https://github.com/user-attachments/assets/44c79685-07d4-496b-99aa-97aa0b84578d" />
 
-
-
-
 ↓実行結果
 
 <img width="736" height="143" alt="image" src="https://github.com/user-attachments/assets/b1f8e10d-9f9a-4bba-8000-65fecefee5ba" />
@@ -109,5 +106,18 @@ Node.jsのSQLiteライブラリ（例：sqlite3）を用いて，データベー
 # 57. Webサーバとデータベースの連携
 Expressサーバ上で，データベースから取得したレコードの一覧をJSONで返すAPIを実装すること．
 
+<img width="745" height="729" alt="image" src="https://github.com/user-attachments/assets/bac4f54d-205b-450b-a777-d1496ede9242" />
+
+bash上でnpm install express(expressインストール)
+
+↓bashでnode index.jsした結果
+
+<img width="655" height="59" alt="image" src="https://github.com/user-attachments/assets/9df32c16-098d-4f0c-b1ec-692728d090f5" />
+
+↓新たにbashを起動して、curlコマンド実行
+
+<img width="1185" height="163" alt="image" src="https://github.com/user-attachments/assets/9e26320b-0b2d-420b-99a6-ad8913784c49" />
 
 
+# 58. Webフォームからの入力データをデータベースに登録
+簡単なWebフォームを用意し，ユーザが入力したデータをPOSTで受け取り，サーバでデータベースに登録する仕組みを実装すること．
