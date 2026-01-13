@@ -80,6 +80,11 @@ HTTPはステートレスな(状態を保持しない)プロトコルであり�
 # 63. ユーザ登録API
 ユーザ名とパスワードを受け取り，パスワードをハッシュ化してデータベースに登録するAPIを実装せよ．
 
+node index.js
+
+<img width="761" height="178" alt="image" src="https://github.com/user-attachments/assets/ebae0668-4324-44ef-b6a6-1f4dd7bb2159" />
+
+<img width="753" height="134" alt="image" src="https://github.com/user-attachments/assets/ff82e154-a00d-4359-a6a7-34798d508f14" />
 
 
 
