@@ -112,6 +112,7 @@ sqlite3を実行し、users.dbのデータ(id, username, password_hash(ハッシ
 # 64. ログインAPI
 ユーザ名とパスワードでログインを受け付け，パスワードの照合（ハッシュ値の検証）を行い，結果を返すAPIを実装せよ．
 
+index_64.jsは60-69フォルダに
 
 # 65. セッション管理
 express-session等のミドルウェアを使い，ログイン後にセッション情報を保持し，認証済みユーザのみがアクセスできるAPIエンドポイントを設けよ．
@@ -120,3 +121,10 @@ express-session等のミドルウェアを使い，ログイン後にセッシ�
 # 66. クッキーを利用したセッション管理
 クッキーの仕組みを使い，セッションIDなどがクライアントに安全に保存されていることを確認せよ．
 必要に応じてクッキーの属性（Secure, HttpOnly等）を調査すること．
+
+index_66.jsは60-69フォルダに
+
+curlコマンド
+
+<img width="613" height="360" alt="image" src="https://github.com/user-attachments/assets/f6af4815-a56d-4460-93f2-6b603a8c3306" />
+
