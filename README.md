@@ -3,10 +3,13 @@
 # 60. 認証と認可の違い
 「認証（Authentication）」と「認可（Authorization）」の違い，およびWebサービスでどのように使い分けるかを調査し，200字程度でまとめよ．
 
+
 「認証（Authentication）」とは、「あなたは誰ですか？」とユーザが本人であることを識別・検証するプロセスである。
 IDやメールアドレスの確認、パスワードの確認、顔指紋認証といった、ユーザの特徴・持っていること・知っていることについての確認を行う。
+
 「認可（Authorization）」とは、「（認証された）あなたは何ができますか？」と、認証されたユーザに権限があるかを確認して、アクセスできるリソースや操作範囲を決定するプロセスである。
 例として管理者メニューへのアクセス許可などがある。
+
 認証が通った後、認可によって利用範囲が決まるため、webサービスでは認証→認可の順で実施される。
 
 
@@ -80,11 +83,23 @@ HTTPはステートレスな(状態を保持しない)プロトコルであり�
 # 63. ユーザ登録API
 ユーザ名とパスワードを受け取り，パスワードをハッシュ化してデータベースに登録するAPIを実装せよ．
 
-node index.js
+index_63.jsなどは60-69フォルダにいれています
 
-<img width="761" height="178" alt="image" src="https://github.com/user-attachments/assets/ebae0668-4324-44ef-b6a6-1f4dd7bb2159" />
+bashでの操作
+
+<img width="734" height="395" alt="image" src="https://github.com/user-attachments/assets/eac63813-b999-4cdc-9bc7-7fea7632fea8" />
+
+
+別ターミナルを開いてcurlコマンド
 
 <img width="753" height="134" alt="image" src="https://github.com/user-attachments/assets/ff82e154-a00d-4359-a6a7-34798d508f14" />
+
+<img width="687" height="109" alt="image" src="https://github.com/user-attachments/assets/6c1ba4ad-3958-4979-b144-557516a804f0" />
+
+
+sqlite3を実行し、users.dbのデータ(id, username, password_hash(ハッシュ化したパスワード))を表示
+
+<img width="685" height="341" alt="image" src="https://github.com/user-attachments/assets/ecbc962f-f67d-461f-891e-990014ff3c4b" />
 
 
 
