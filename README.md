@@ -33,10 +33,8 @@ npx create-react-appコマンドを用い，新規Reactプロジェクトを作�
 
 <img width="1896" height="412" alt="image" src="https://github.com/user-attachments/assets/71e6cf7c-2a16-45e0-964a-272a9c287fc9" />
 
-
+Profile.js
 ```
-#Profile.js
-
 function Profile() {
     return (
         <div>
@@ -50,10 +48,8 @@ function Profile() {
 
 export default Profile;
 ```
-
+App.js
 ```
-#App.js
-
 import Profile from "./Profile";
 import './App.css';
 
@@ -75,8 +71,8 @@ export default App;
 # 72. propsを用いたデータ受け渡し
 親コンポーネントから子コンポーネントへpropsでデータ（例：名前や年齢）を渡し，表示する機能を実装せよ．
 
+Profile.js
 ```
-#Profile.js
 function Profile(props) {
     return (
         <div>
@@ -91,9 +87,8 @@ function Profile(props) {
 
 export default Profile;
 ```
-
+App.js
 ```
-#App.js
 import Profile from "./Profile";
 import './App.css';
 
@@ -102,10 +97,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>My React App</h1>
-
         <Profile name="小池 美優" age={22} faculty="芸術工" />
         <Profile name="佐藤 太郎" age={20} faculty="工" />
-
       </header>
     </div>
   );
@@ -152,9 +145,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>My React App</h1>
-
         <Counter />
-
       </header>
     </div>
   );
@@ -200,9 +191,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>My React App</h1>
-
         <TodoList />
-
       </header>
     </div>
   );
@@ -266,9 +255,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>My React App</h1>
-
         <ToDoForm />
-
       </header>
     </div>
   );
@@ -315,3 +302,136 @@ App.jsも問題73と同じ
 
 # 77. 複数コンポーネントの分割・再利用
 ヘッダー・フッター・メイン等，複数のコンポーネントを作成し，1つのページとして組み合わせて表示せよ．
+
+ヘッダー、フッター、メインの3コンポーネントをまとめるフォルダを作る。
+
+/components/Header.js
+```
+function Header() {
+    return (
+        <header>
+            <h1>My React App</h1>
+        </header>
+    );
+}
+
+export default Header;
+```
+
+/components/Main.js
+```
+function Main() {
+    return (
+        <main>
+            <p>ここがメインコンテンツです。</p>
+        </main>
+    );
+}
+
+export default Main;
+```
+
+/components/Footer.js
+```
+function Footer() {
+    return (
+        <footer>
+            <p>© 2026 Miyu Koike</p>
+        </footer>
+    );
+}
+
+export default Footer;
+```
+
+
+App.js
+```
+import './App.css';
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <Main />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
+```
+結果
+<img width="1919" height="429" alt="image" src="https://github.com/user-attachments/assets/907b0835-e574-48ba-b422-c65020df7646" />
+
+# 78. react-router-domを利用したルーティング
+react-router-domを利用し，複数ページ（例：Home, About）へのルーティング機能を実装せよ．
+ページ間のリンクボタンも設置すること．
+
+そもそもreact-router-domとは、ReactでURL管理をする仕組み
+
+まずreact-router-domをインストール
+```
+npm install react-router-dom
+```
+
+/pages/Home.js
+```
+function Home() {
+    return (
+        <>
+            <h2>Homeページ</h2>
+            <p>ここはHomeページです</p>
+        </>
+    );
+}
+
+export default Home;
+```
+
+/pages/About.js
+```
+function About() {
+    return (
+        <>
+            <h2>Aboutページ</h2>
+            <p>ここはAboutページです</p>
+        </>
+    );
+}
+
+export default About;
+```
+
+App.js
+```
+import './App.css';
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <nav>
+        <Link to="/">Home</Link> |{" "}
+        <Link to="/about">About</Link>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;
+```
+
+結果
+<img width="657" height="375" alt="image" src="https://github.com/user-attachments/assets/0280fb30-1f3f-4a39-bbf3-2584a466e55a" />
+<img width="664" height="360" alt="image" src="https://github.com/user-attachments/assets/85d4e7cb-a625-482e-b7fa-c25c8f571774" />
