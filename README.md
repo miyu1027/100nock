@@ -437,3 +437,6 @@ export default App;
 <img width="657" height="375" alt="image" src="https://github.com/user-attachments/assets/0280fb30-1f3f-4a39-bbf3-2584a466e55a" />
 
 <img width="664" height="360" alt="image" src="https://github.com/user-attachments/assets/85d4e7cb-a625-482e-b7fa-c25c8f571774" />
+
+# 79. Reactアプリの公開
+作成したReactアプリをGitHub PagesまたはRenderを用いて公開し，URLを確認せよ．
