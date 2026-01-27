@@ -3,10 +3,8 @@ Promiseオブジェクトを作成し，then/catchによる非同期処理の基
 
 提出：JavaScriptコード、コンソール出力のスクリーンショット
 
+
 非同期通信における.then()と.catch()は、Promiseオブジェクトを用いて成功・失敗時の処理を分けるメソッド
-
-".then()"は通信成功時のデータ処理、".catch()"はエラーハンドリング（失敗時）→非同期処理を連鎖的かつ見通しよく記述
-
 
 【基本構文と特徴】
 
@@ -15,6 +13,7 @@ then(): 非同期処理が正常終了した（Fulfilled）際に実行される
 catch(): 非同期処理が異常終了した（Rejected）際に実行されるエラーハンドリング関数を登録
 
 finally(): 成否にかかわらず、通信完了後に必ず実行するクリーンアップ処理（ロード画面の非表示など）
+
 
 sample.js
 ```
@@ -34,7 +33,7 @@ function asyncTask(success) {
     });
 }
 
-// --- 成功するケース ---
+// --- 実行する ---
 asyncTask(true)
     .then(result => {
         console.log("then:", result);
