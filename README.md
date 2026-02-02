@@ -180,5 +180,11 @@ Forkと書かれているところをクリック → 「Forkを作成する」�
 
 <img width="1919" height="1054" alt="image" src="https://github.com/user-attachments/assets/6b7885a6-d61b-43cd-a6a1-170084f01fc4" />
 
-コードをコピーしてgit clone
-<img width="927" height="244" alt="image" src="https://github.com/user-attachments/assets/447c6a6f-bc84-4803-80d7-b5ce39b566d0" />
+コードをコピーしてgit clone, npm install(今回は課題用に作った100nock_90-99フォルダに)
+<img width="935" height="481" alt="image" src="https://github.com/user-attachments/assets/36c3a77b-0a52-48a2-a12e-3e3d3445fabd" />
+
+npm startしてmain.jsが実際に働くか確認(私が動かしたときはエラーが出たのであらかじめ少しだけ変更を加えています(package.jsonの"type": "module" を消す))
+<img width="668" height="158" alt="image" src="https://github.com/user-attachments/assets/5d7360ff-31f6-40b9-8110-e3cca8542e8e" />
+
+ブラウザで http://localhost:3000/api/me を確認
+<img width="535" height="249" alt="image" src="https://github.com/user-attachments/assets/82529556-0798-4aa7-9489-0b3f187574fc" />
